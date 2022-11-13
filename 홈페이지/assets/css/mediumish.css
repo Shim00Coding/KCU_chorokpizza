@@ -8,13 +8,7 @@ body {
 	padding-top:5rem;
 }
 .mainheading {
-	padding:0rem 0rem;
-}
-.top {
-	left: 50px;
-	display: inline-block;
-	position: relative;
-	width: 40%;
+	padding:1rem 0rem;
 }
 a {
 	color:#00ab6b;
@@ -206,14 +200,6 @@ span.post-name a,span.post-read-more a:hover {
 }
 .mainheading h1.sitetitle {
 	font-family:Righteous;
-}
-.mainlogo {
-	position: absolute;
-	top: 0px;
-	left: 65%;
-	width: auto;
-	display: inline-block;
-	height:130px;	
 }
 .mainheading h1.posttitle {
 	font-weight:700;
