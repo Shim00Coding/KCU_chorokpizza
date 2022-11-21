@@ -1,10 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="roulette_style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../assets/img/demopic/chorokPizza.jpg">
+<title>Foodison</title>
+<!-- Bootstrap core CSS -->
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href="roulette_style.css">
+<link href="../assets/css/mediumish.css" rel="stylesheet">
 </head>
 <body>
-  <div>
-    <canvas width="380" height='380'></canvas>  
-    <button onclick="rotate()">룰렛 돌리기</button>
-    <script src="roulette_script.js"></script>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+      <!-- Begin Logo -->
+      <a class="navbar-brand" href="index.html">
+      <img src="../assets/img/demopic/chorokPizza.jpg" alt="logo">
+      </a>
+      <!-- End Logo -->
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <!-- Begin Menu -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+          <a class="nav-link" href="../../홈페이지/index.html">전체<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="../음식점랭킹.html">음식점 랭킹</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="../음식점랭킹.html">음식점 평점 남기기</a>
+          </li>
+          <li class="nav-item active">
+          <a class="nav-link" href="../TestRoul/roulette.html">뭐먹지 룰렛</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="검색">
+          <span class="search-icon"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg></span>
+        </form>
+        <!-- end search -->
+      </div>
+    </div>
+    </nav>
+    <section class="featured-posts">
+  <div class = "roul">
+    <canvas width="540" height='540'></canvas>  
   </div>
+  <div class="but">
+    <button onclick="rotate()">룰렛 돌리기</button>
+  </div>
+  </section>
+  <div class="footer">
+		<p class="pull-left">
+			 Copyright &copy; 2022 chorokPizza
+		</p>
+		<p class="pull-right">
+			 Foodison by <a target="_blank" href="../index.html">chorokPizza</a>
+		</p>
+		<div class="clearfix">
+		</div>
+	</div>
+  <script src="roulette_script.js"></script>
 </body>

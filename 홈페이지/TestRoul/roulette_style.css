@@ -9,6 +9,8 @@ body {
 }
 
 canvas {
+  text-align: center;
+  align-items: center;
   transition: 2s;
 }
 
@@ -22,23 +24,30 @@ button {
   border-radius: 5px;
   transition: .2s;
   cursor: pointer;
+  position: relative;
+  top: 50%; 
 }
 
 button:active {
   background: #444;
   color: #f9f9f9;
 }
- 
-div {
-  width: 380px;
+
+.but{
+  position: relative;
+  left: 42.65%;
+}
+.roul {
+  width: 540px;
   overflow: hidden;
   display: flex;
   align-items: center;
   flex-direction: column;
   position: relative;
+  left: 30%;
 }
 
-div::before {
+.roul::before {
   content: "";
   position: absolute;
   width: 10px;
