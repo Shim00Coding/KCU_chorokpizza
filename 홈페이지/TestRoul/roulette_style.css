@@ -9,6 +9,8 @@ body {
 }
 
 canvas {
+  text-align: center;
+  align-items: center;
   transition: 2s;
 }
 
@@ -28,7 +30,8 @@ button:active {
   background: #444;
   color: #f9f9f9;
 }
- 
+
+
 .roul {
   width: 580px;
   overflow: hidden;
@@ -39,6 +42,7 @@ button:active {
 }
 
 .roul::before {
+  text-align: center;
   content: "";
   position: absolute;
   width: 10px;
