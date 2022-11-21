@@ -33,19 +33,21 @@ button:active {
   color: #f9f9f9;
 }
 
-
+.but{
+  position: relative;
+  left: 42.65%;
+}
 .roul {
   width: 540px;
   overflow: hidden;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   flex-direction: column;
   position: relative;
   left: 30%;
 }
 
 .roul::before {
-  text-align: center;
   content: "";
   position: absolute;
   width: 10px;
