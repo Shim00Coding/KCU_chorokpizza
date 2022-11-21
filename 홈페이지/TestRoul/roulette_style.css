@@ -29,8 +29,8 @@ button:active {
   color: #f9f9f9;
 }
  
-div {
-  width: 380px;
+.roul {
+  width: 580px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -38,7 +38,7 @@ div {
   position: relative;
 }
 
-div::before {
+.roul::before {
   content: "";
   position: absolute;
   width: 10px;
