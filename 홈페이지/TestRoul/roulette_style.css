@@ -24,6 +24,8 @@ button {
   border-radius: 5px;
   transition: .2s;
   cursor: pointer;
+  position: relative;
+  top: 50%; 
 }
 
 button:active {
@@ -36,9 +38,10 @@ button:active {
   width: 580px;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
   position: relative;
+  left: 40%;
 }
 
 .roul::before {
