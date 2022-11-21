@@ -35,13 +35,13 @@ button:active {
 
 
 .roul {
-  width: 580px;
+  width: 540px;
   overflow: hidden;
   display: flex;
   /* align-items: center; */
   flex-direction: column;
   position: relative;
-  left: 40%;
+  left: 30%;
 }
 
 .roul::before {

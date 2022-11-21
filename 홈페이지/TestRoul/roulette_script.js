@@ -51,16 +51,16 @@ const rotate = () => {
   
   setTimeout(() => {
     
-    const ran = Math.floor(Math.random() * product.length);
-    
+    //const ran = Math.floor(Math.random() * product.length);
+    const ran = 3;
 
     const arc = 360 / product.length;
     const rotate = (ran * arc) + 3600 + (arc * 3) - (arc/4);
     
     $c.style.transform = `rotate(-${rotate}deg)`;
     $c.style.transition = `2s`;
-    
-    setTimeout(() => alert(`DDD?! ${product[ran]} AAAA?`), 2000);
+
+    setTimeout(() => alert(`${product[ran]}`), 2000);
   }, 1);
 };
 
