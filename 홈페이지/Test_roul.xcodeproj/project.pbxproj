@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C69CECEC29035C3A00CA2E6A /* roulette.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = roulette.html; sourceTree = "<group>"; };
+		C69CECED29035C5600CA2E6A /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		C69CECEE29035C9500CA2E6A /* scripts */ = {isa = PBXFileReference; lastKnownFileType = text; path = scripts; sourceTree = "<group>"; };
+		C69CECEF29035CB000CA2E6A /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C69CECE529035BFA00CA2E6A = {
+			isa = PBXGroup;
+			children = (
+				C69CECEF29035CB000CA2E6A /* style.css */,
+				C69CECEE29035C9500CA2E6A /* scripts */,
+				C69CECED29035C5600CA2E6A /* script.js */,
+				C69CECEC29035C3A00CA2E6A /* roulette.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		C69CECE629035BFA00CA2E6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+			};
+			buildConfigurationList = C69CECE929035BFA00CA2E6A /* Build configuration list for PBXProject "Test_roul" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C69CECE529035BFA00CA2E6A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C69CECEA29035BFA00CA2E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C69CECEB29035BFA00CA2E6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C69CECE929035BFA00CA2E6A /* Build configuration list for PBXProject "Test_roul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69CECEA29035BFA00CA2E6A /* Debug */,
+				C69CECEB29035BFA00CA2E6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C69CECE629035BFA00CA2E6A /* Project object */;
+}
