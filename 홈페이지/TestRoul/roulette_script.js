@@ -52,6 +52,7 @@ const rotate = () => {
   setTimeout(() => {
     
     const ran = Math.floor(Math.random() * product.length);
+    
 
     const arc = 360 / product.length;
     const rotate = (ran * arc) + 3600 + (arc * 3) - (arc/4);
