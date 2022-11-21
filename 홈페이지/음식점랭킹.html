@@ -7,6 +7,44 @@
 <meta name="author" content="">
 <link rel="icon" href="assets/img/demopic/chorokPizza.jpg">
 <title>Foodison</title>
+<script>
+	$(document).ready(function() {
+ 		// AJAX in the data file
+		$.ajax({
+			type: "GET",
+			url: "rest_pizza_list.csv",
+			dataType: "text",
+			success: function(data) {processData(data);}
+			});
+
+		// Let's process the data from the data file
+		function processData(data) {
+			var lines = data.split(/\r\n|\n/);
+
+			//Set up the data arrays
+			var name = [];
+			var score = [];
+			var rest_url = [];
+			var img = [];
+
+			var headings = lines[0].split(','); // Splice up the first row to get the headings
+
+			for (var j=1; j<lines.length; j++) {
+			var values = lines[j].split(','); // Split up the comma seperated values
+			// 이름, 평점, 음식점링크, 이미지링크
+			name.push(values[1]); // Read in as string
+			// Recommended to read in as float, since we'll be doing some operations on this later.
+			score.push(parseFloat(values[2]));
+			rest_url.push(values[3]);
+			img.push(values[4]);
+			var x= 0;
+		}
+		var x= 0;
+    console.log(headings[0]+" : "+time[x]+headings[1]+" : "+data1[x]+headings[2]+" : "+data2[x]+headings[4]+" : "+data2[x]);
+		}
+	})
+
+</script>
 <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <!-- Fonts -->
@@ -80,7 +118,7 @@
 				<img class="img-fluid" src="https://img.cdn4dd.com/p/fit=cover,width=200,height=150,format=auto,quality=75/media/photos/a5384a1e-f1e9-497c-b003-10bd8a46b248-retina-large.jpg" alt="">
 			</a>
 			<div class="card-block">
-				<h2 class="card-title"><a href="한식.html">Pizza Extreme</a></h2>
+				<h2 class="card-title" id="name[0]"><a href="한식.html"></a></h2>
 				<h4 class="card-text">이런거 하는거</h4>
 				<div class="metafooter">
 					<div class="wrapfooter">
