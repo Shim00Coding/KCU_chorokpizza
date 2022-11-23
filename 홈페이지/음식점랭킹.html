@@ -6,13 +6,14 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="icon" href="assets/img/demopic/chorokPizza.jpg">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <title>Foodison</title>
 <script>
 	$(document).ready(function() {
  		// AJAX in the data file
 		$.ajax({
 			type: "GET",
-			url: "rest_pizza_list.csv",
+			url: "../rest_pizza_list.csv",
 			dataType: "text",
 			success: function(data) {processData(data);}
 			});
